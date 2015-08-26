@@ -16,6 +16,8 @@
 		7CC96A941B8E0B9700A17BE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC96A931B8E0B9700A17BE6 /* Images.xcassets */; };
 		7CC96A971B8E0B9700A17BE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC96A951B8E0B9700A17BE6 /* LaunchScreen.xib */; };
 		7CC96AA31B8E0B9700A17BE6 /* PlayingWithSpriteLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC96AA21B8E0B9700A17BE6 /* PlayingWithSpriteLightTests.m */; };
+		7CC96AAE1B8E0FFB00A17BE6 /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CC96AAC1B8E0FFB00A17BE6 /* fire.sks */; };
+		7CC96AAF1B8E0FFB00A17BE6 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC96AAD1B8E0FFB00A17BE6 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		7CC96A9C1B8E0B9700A17BE6 /* PlayingWithSpriteLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingWithSpriteLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC96AA11B8E0B9700A17BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC96AA21B8E0B9700A17BE6 /* PlayingWithSpriteLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingWithSpriteLightTests.m; sourceTree = "<group>"; };
+		7CC96AAC1B8E0FFB00A17BE6 /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		7CC96AAD1B8E0FFB00A17BE6 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				7CC96A861B8E0B9700A17BE6 /* AppDelegate.m */,
 				7CC96A881B8E0B9700A17BE6 /* GameScene.h */,
 				7CC96A891B8E0B9700A17BE6 /* GameScene.m */,
+				7CC96AAC1B8E0FFB00A17BE6 /* fire.sks */,
+				7CC96AAD1B8E0FFB00A17BE6 /* spark.png */,
 				7CC96A8B1B8E0B9700A17BE6 /* GameScene.sks */,
 				7CC96A8D1B8E0B9700A17BE6 /* GameViewController.h */,
 				7CC96A8E1B8E0B9700A17BE6 /* GameViewController.m */,
@@ -208,8 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CC96A971B8E0B9700A17BE6 /* LaunchScreen.xib in Resources */,
+				7CC96AAF1B8E0FFB00A17BE6 /* spark.png in Resources */,
 				7CC96A941B8E0B9700A17BE6 /* Images.xcassets in Resources */,
 				7CC96A8C1B8E0B9700A17BE6 /* GameScene.sks in Resources */,
+				7CC96AAE1B8E0FFB00A17BE6 /* fire.sks in Resources */,
 				7CC96A921B8E0B9700A17BE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

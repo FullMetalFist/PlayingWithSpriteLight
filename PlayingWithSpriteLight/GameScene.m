@@ -23,6 +23,7 @@
         stone.position = CGPointMake(i * 250, self.frame.size.height / 2);
         [stone setScale:0.6];
         stone.zPosition = 1;
+        stone.shadowCastBitMask = 1;
         [self addChild:stone];
     }
     
@@ -33,6 +34,14 @@
     fireEmitter.zPosition = 1;
     fireEmitter.targetNode = self;
     [self addChild:fireEmitter];
+    
+    SKLightNode *light = [[SKLightNode alloc] init];
+    light.categoryBitMask = 1;
+    light.falloff = 1;
+    light.ambientColor = [UIColor whiteColor];
+    light.lightColor = [UIColor colorWithRed:1.0 green:1.0 blue:0.0 alpha:0.5];
+    light.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.5];
+    [fireEmitter addChild:light];
 }
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {

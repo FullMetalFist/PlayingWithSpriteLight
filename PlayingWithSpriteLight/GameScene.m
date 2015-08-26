@@ -12,10 +12,11 @@
 
 -(void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
-    SKSpriteNode *background = [SKSpriteNode spriteNodeWithImageNamed:@"background"];
+    SKSpriteNode *background = [SKSpriteNode spriteNodeWithImageNamed:@"background" normalMapped:TRUE];
     background.size = self.size;
     background.zPosition = 0;
     background.position = CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2);
+    background.lightingBitMask = 1;
     [self addChild:background];
     
     for (NSInteger i = 1; i < 4; i++) {
